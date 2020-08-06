@@ -39,6 +39,7 @@ class GenderAgeClassifier(object):
         for index, row in data.iterrows():
             try:
                 gender = -1
+                age = '-1'
                 count += 1
                 # extract key
                 id_str = str(row['tweet_id'])
